@@ -1230,8 +1230,8 @@
 			}
 
 		#header .logo {
-			width: 12.5rem;
-			height: 12.5rem;
+			width: 10.5rem;
+			height: 10.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1515,7 +1515,7 @@
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
-					content: '';
+					content: ''; 
 					display: block;
 					position: absolute;
 					top: 0.75rem;
