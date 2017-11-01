@@ -54,6 +54,10 @@
         border-radius: 50%
     }
 
+    .workHeader {
+        height: 50px
+    }
+
 /* Box Model */
 
 	*, *:before, *:after {
