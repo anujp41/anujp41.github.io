@@ -21,11 +21,38 @@
     .github {
         height: 5vw;
         position: fixed;
-        top: 8px;
+        top: 10px;
         right: 20px;
         border-radius: 50%;
         background-color: azure;
-        box-shadow: 0 15px 30px 5px #f48642
+        box-shadow: 0 15px 30px 5px #dab3e0;
+        animation-name: github;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes github {
+        0%   {top: 10px}
+        50%  {top: 20px}
+        100% {top: 10px};
+    }
+
+    .linkedin {
+        height: 5vw;
+        position: fixed;
+        top: 150px;
+        right: 20px;
+        border-radius: 50%;
+        box-shadow: 0 15px 30px 5px #98bde2;
+        animation-name: linkedin;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes linkedin {
+        0%   {top: 150px}
+        50%  {top: 165px}
+        100% {top: 150px};
     }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
