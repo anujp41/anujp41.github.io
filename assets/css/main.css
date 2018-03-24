@@ -18,6 +18,16 @@
 		vertical-align: baseline;
 	}
 
+    .github {
+        height: 5vw;
+        position: fixed;
+        top: 8px;
+        right: 20px;
+        border-radius: 50%;
+        background-color: azure;
+        box-shadow: 0 15px 30px 5px #f48642
+    }
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
